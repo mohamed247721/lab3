@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour {
                 GetComponent<SpriteRenderer>().flipX = false;
             }   
         }
-         anim.SetFloat("Speed",Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
+         anim.SetFloat("speed",Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
 anim.SetFloat("Height", GetComponent<Rigidbody2D>().velocity.y);
 anim.SetBool("Grounded", grounded);
 
